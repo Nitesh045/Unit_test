@@ -9,9 +9,10 @@ import { MyProvider } from './Component/UseContext';
 function App() {
   
   return (
-    <MyProvider>
-    <MyComponent />
-  </MyProvider>
+    <div className="App">
+      <Counter/>
+      <UseRef/>
+    </div>
   );
 }
 
