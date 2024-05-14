@@ -6,7 +6,7 @@ import { UseRef } from './Component/UseRef';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      
       <UseRef/>
     </div>
   );
