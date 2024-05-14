@@ -8,7 +8,7 @@ export const MyComponent = () => {
     return (
       <div>
         <p>{state}</p>
-        <button onClick={() => setState('new value')}>Change Value</button>
+        <button onClick={(e) => setState('new value')}>Change Value</button>
       </div>
     );
   };
